@@ -1,0 +1,40 @@
+.mainBox{
+    text-align: center;
+    background-image: url('./../../assets/ai-generated-8670035_1280.png');
+    background-size: cover;
+    height: 844px;
+    overflow: auto;
+    .allButs {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
+    button{
+        background-color: rgb(25, 152, 25);
+      transition: background-color 0.3s ease-in-out;
+      width: 60%;
+      margin-left: 20%;
+      padding: 10px 0 10px 0;
+      border-radius: 12px;
+    }
+}
+}
+.list {
+    padding: 0;
+
+    li{
+
+        cursor: pointer;
+        list-style: none;
+        border: 1px solid green;
+        background-color: rgba(14, 118, 81, 0.692);
+        margin-top: 30px;
+        border-radius: 21px;
+        p{
+            width: 90%;
+            margin-left: 5%;
+        }
+    }
+
+}
+
